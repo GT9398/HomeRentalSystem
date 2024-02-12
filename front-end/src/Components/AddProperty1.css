@@ -1,0 +1,73 @@
+/* AddProperty1.css */
+
+/* Container */
+.add-property-container {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .add-property-container h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .add-property-form {
+    display: grid;
+    gap: 10px;
+  }
+  
+  .add-property-form label {
+    font-weight: bold;
+  }
+  
+  .add-property-form select,
+  .add-property-form input[type="text"],
+  .add-property-form input[type="number"],
+  .add-property-form input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .add-property-form select[multiple] {
+    height: auto;
+  }
+  
+  .add-property-form button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .add-property-form button[type="reset"] {
+    background-color: #dc3545;
+  }
+  
+  .add-property-form p {
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+    display: none;
+  }
+  
+  .add-property-form a {
+    text-decoration: none;
+  }
+  
+  .add-property-form button[type="button"] {
+    margin-top: 10px;
+    background-color: #28a745;
+  }
+  
+  
